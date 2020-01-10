@@ -1,17 +1,11 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
 using System.Web.Mvc;
 
 namespace WorkEducation.Controllers
 {
 	public class HomeController : Controller
 	{
-		public ActionResult Index()
-		{
-			return View();
-		}
+		public ActionResult Index() => View();
 
 		public ActionResult About()
 		{
@@ -26,5 +20,7 @@ namespace WorkEducation.Controllers
 
 			return View();
 		}
+
+		public ActionResult Art() => View();
 	}
 }
